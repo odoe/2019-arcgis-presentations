@@ -5,7 +5,7 @@ Noah Sager | René Rubalcava
 
 Presentation:
 
-<a href="https://odoe.github.io/2019-arcgis-presentations/uc/Using-TypeScript-with-ArcGIS-API-for-JavaScript/index.html" target="_blank">https://odoe.github.io/2019-arcgis-presentations/uc/Using-TypeScript-with-ArcGIS-API-for-JavaScript/index.html</a>
+<a href="https://git.io/fj2Ej" target="_blank">https://git.io/fj2Ej</a>
 
 ----
 
