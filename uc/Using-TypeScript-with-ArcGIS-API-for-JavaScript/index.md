@@ -34,7 +34,6 @@ Presentation:
 ----
 
 ### **Developer Setup**
-</br>
 <a href="https://developers.arcgis.com/javascript/latest/guide/typescript-setup/index.html" target="_blank">
 <img style="float:bottom;" src="Images/Setup_TS.png" alt="Setup_TS">
 </a>
@@ -43,9 +42,10 @@ Presentation:
 
 ### **Why use TypeScript?**
 </br>
-TypeScript adds `type` support to JavaScript
+TypeScript adds **type** support to JavaScript
 </br>
-<img src="Images/addFeatureLayer_TS.png" alt="TypeScript_Example1" width="1538" height="454">
+</br>
+<img src="Images/TS_1a.png" alt="TypeScript_Example1">
 
 ----
 
@@ -53,7 +53,7 @@ TypeScript adds `type` support to JavaScript
 </br>
 Enhanced IDE support
 </br>
-<img src="Images/addFeatureLayer_TS_error.png" alt="TypeScript_Example2" width="1556" height="466">
+<img src="Images/TS_2.png" alt="TypeScript_Example2">
 
 ----
 
