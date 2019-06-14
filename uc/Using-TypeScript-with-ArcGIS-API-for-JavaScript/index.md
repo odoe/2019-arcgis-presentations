@@ -61,7 +61,8 @@ Enhanced IDE support
 </br>
 Makes use of the latest JavaScript features
 </br>
-<img src="Images/promise_async_await.png" alt="TypeScript_Example3" width="1700" height="646">
+</br>
+<img src="Images/promise_async_await_carbon4.png" alt="TypeScript_Example3">
 
 ----
 
