@@ -70,7 +70,8 @@ Makes use of the latest JavaScript features
 </br>
 Makes use of the latest JavaScript features
 </br>
-<img src="Images/dynamicImport.png" alt="TypeScript_Example4" width="1150" height="336">
+</br>
+<img src="Images/dynamicModule2.png" alt="TypeScript_Example4">
 
 ----
 
@@ -91,7 +92,8 @@ npm install --save @types/arcgis-js-api
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Demo: Build a TypeScript app from scratch**
-
+</br>
+<img src="Images/wheres_rene.png" alt="Rene_Softwhere_Engineer">
 ----
 ### **Tip: Hide .js and .jsmap files **
 
@@ -106,6 +108,7 @@ npm install --save @types/arcgis-js-api
 ```
 
 ----
+
 ### **Tip: Debugging with source maps**
   - Enable source maps in browser dev tools
   - Set breakpoints in .ts instead of .js
@@ -113,6 +116,7 @@ npm install --save @types/arcgis-js-api
   ![JS Code](Images/transpiled.png)
 
 ----
+
 ### **Tip: Use __esri instead of import**
 - Only contains type interfaces
 - Can use when not instantiating type
@@ -126,6 +130,7 @@ const layerList = new LayerList({
   }
 });
 ```
+
 ----
 
 ### **Where can I get more info?**
@@ -140,7 +145,7 @@ const layerList = new LayerList({
 
 ----
 
-<a><img style="float:bottom;" src="Images/bg-rating.png" alt="Ratings"</a>
+<a><img style="float:bottom;" src="Images/2019_UC_Survey_Slide.png" alt="Survey"</a>
 
 ---
 
