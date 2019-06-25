@@ -4,7 +4,7 @@
 <h1 style="text-align: right; font-size: 80px;">Leveraging Vector Tile Layers</h1>
 <h2 style="text-align: right; font-size: 60px;">in Web Apps</h2>
 <p style="text-align: right; font-size: 30px;">Patrick Arlt | René Rubalcava</p>
-    <p style="text-align: right; font-size: 30px;">slides: <a href="https://git.io/fj2Ej" target="_blank">https://git.io/fj2Ej</a></p>
+    <p style="text-align: right; font-size: 30px;">slides: <a href="https://git.io/fjrz4" target="_blank">https://git.io/fjrz4</a></p>
 
 <!--
 Description:
