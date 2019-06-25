@@ -46,5 +46,8 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ----
 
-<a><img style="float:bottom;" src="Images/bg-rating.jpeg" alt="Ratings"</a>
+<!-- .slide: data-background="./Images/2019_UC_Survey_Slide.png" -->
 
+---
+
+<!-- .slide: data-background="./Images/bg-esri.png" -->

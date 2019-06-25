@@ -33,7 +33,6 @@
 ----
 
 ### **Developer Setup**
-</br>
 <a href="https://developers.arcgis.com/javascript/latest/guide/typescript-setup/index.html" target="_blank">
 <img style="float:bottom;" src="Images/Setup_TS.png" alt="Setup_TS">
 </a>
@@ -42,9 +41,10 @@
 
 ### **Why use TypeScript?**
 </br>
-TypeScript adds `type` support to JavaScript
+TypeScript adds **type** support to JavaScript
 </br>
-<img src="Images/addFeatureLayer_TS.png" alt="TypeScript_Example1" width="1538" height="454">
+</br>
+<img src="Images/TS_1a.png" alt="TypeScript_Example1">
 
 ----
 
@@ -52,7 +52,7 @@ TypeScript adds `type` support to JavaScript
 </br>
 Enhanced IDE support
 </br>
-<img src="Images/addFeatureLayer_TS_error.png" alt="TypeScript_Example2" width="1556" height="466">
+<img src="Images/TS_2.png" alt="TypeScript_Example2">
 
 ----
 
@@ -60,7 +60,8 @@ Enhanced IDE support
 </br>
 Makes use of the latest JavaScript features
 </br>
-<img src="Images/promise_async_await.png" alt="TypeScript_Example3" width="1700" height="646">
+</br>
+<img src="Images/promise_async_await_carbon4.png" alt="TypeScript_Example3">
 
 ----
 
@@ -68,7 +69,8 @@ Makes use of the latest JavaScript features
 </br>
 Makes use of the latest JavaScript features
 </br>
-<img src="Images/dynamicImport.png" alt="TypeScript_Example4" width="1150" height="336">
+</br>
+<img src="Images/dynamicModule2.png" alt="TypeScript_Example4">
 
 ----
 
@@ -89,7 +91,8 @@ npm install --save @types/arcgis-js-api
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Demo: Build a TypeScript app from scratch**
-
+</br>
+<img src="Images/wheres_rene.png" alt="Rene_Softwhere_Engineer">
 ----
 ### **Tip: Hide .js and .jsmap files **
 
@@ -104,6 +107,7 @@ npm install --save @types/arcgis-js-api
 ```
 
 ----
+
 ### **Tip: Debugging with source maps**
   - Enable source maps in browser dev tools
   - Set breakpoints in .ts instead of .js
@@ -111,6 +115,7 @@ npm install --save @types/arcgis-js-api
   ![JS Code](Images/transpiled.png)
 
 ----
+
 ### **Tip: Use __esri instead of import**
 - Only contains type interfaces
 - Can use when not instantiating type
@@ -125,6 +130,7 @@ const layerList = new LayerList({
   }
 });
 ```
+
 ----
 
 ### **Where can I get more info?**
@@ -139,5 +145,9 @@ const layerList = new LayerList({
 
 ----
 
-<a><img style="float:bottom;" src="Images/bg-rating.jpeg" alt="Ratings"</a>
+<!-- .slide: data-background="./Images/2019_UC_Survey_Slide.png" -->
+
+---
+
+<!-- .slide: data-background="./Images/bg-esri.png" -->
 
