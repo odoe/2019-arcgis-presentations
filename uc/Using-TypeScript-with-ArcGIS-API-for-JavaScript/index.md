@@ -1,11 +1,10 @@
 <!-- .slide: data-background="./Images/bg-1.jpeg" -->
 <!-- .slide: class="title" -->
-# Intro to TypeScript
-Noah Sager | René Rubalcava
 
-Presentation:
-
-<a href="https://git.io/fj2Ej" target="_blank">https://git.io/fj2Ej</a>
+<h1 style="text-align: right; font-size: 80px;">Using TypeScript</h1>
+<h2 style="text-align: right; font-size: 60px;">with ArcGIS API for JavaScript</h2>
+<p style="text-align: right; font-size: 30px;">Noah Sager | René Rubalcava</p>
+    <p style="text-align: right; font-size: 30px;">slides: <a href="https://git.io/fj2Ej" target="_blank">https://git.io/fj2Ej</a></p>
 
 ----
 
@@ -118,10 +117,11 @@ npm install --save @types/arcgis-js-api
 
 ```ts
 import esri = __esri;
+
 const layerList = new LayerList({
   view,
   listItemCreatedFunction: event => {
-    const item = event.item as __esri.ListItem;
+    const item = event.item as esri.ListItem;
   }
 });
 ```
@@ -139,8 +139,5 @@ const layerList = new LayerList({
 
 ----
 
-<a><img style="float:bottom;" src="Images/bg-rating.png" alt="Ratings"</a>
+<a><img style="float:bottom;" src="Images/bg-rating.jpeg" alt="Ratings"</a>
 
----
-
-<a><img style="float:bottom;" src="Images/bg-esri.png" alt="Ending"</a>
