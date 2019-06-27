@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+  <title>Demo</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/css/main.css">
   <link rel="stylesheet" href="css/main.css">
   <script>
-    var locationPath = location.pathname.replace(/\/[^\/]+$/, "");
+    var locationPath = location.pathname.replace(/\/[^\/]+$/,"");
     window.dojoConfig = {
-      packages: [{
-        name: "app",
-        location: locationPath + "/app"
-      }]
-    }
-
+      packages:[
+        {
+        name:"app",
+        location: locationPath + "app"
+        }
+      ]
+    };
   </script>
-  <script src="https://js.arcgis.com/4.10"></script>
-  <title>TypeScript Demo</title>
+  <script src="https://js.arcgis.com/4.12"></script>
 </head>
-
 <body>
   <div id="viewDiv"></div>
   <script>
     require(["app/main"]);
-
   </script>
 </body>
-
 </html>

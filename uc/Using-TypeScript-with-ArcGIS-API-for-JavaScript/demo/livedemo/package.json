@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/arcgis-js-api": "^4.10.0"
+    "@types/arcgis-js-api": "^4.11.0"
   }
 }
