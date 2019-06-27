@@ -76,7 +76,7 @@ Makes use of the latest JavaScript features
 
 ### **Setup and First steps**
 
-1. The recommended way to install TypeScript is via `Node` and `npm`.
+1. The recommended way to install TypeScript is via `node` and `npm`.
 
 2. Make sure to install TypeScript globally: <br>
 ```bash
@@ -100,7 +100,7 @@ npm install --save @types/arcgis-js-api
 - VSCode: Add below to user preferences in files.exclude
 
 ```json
- **/*.js.map": true,
+ "**/*.js.map": true,
         "**/*.js": {
             "when": "$(basename).ts"
 
