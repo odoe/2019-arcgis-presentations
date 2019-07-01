@@ -288,6 +288,12 @@ const layerList = new LayerList({
 
 <!-- .slide: data-background="./Images/bg-2.png" -->
 
+<img src="./Images/alias_slide.png" style="border: 0px; background:none; box-shadow: none;">
+
+----
+
+<!-- .slide: data-background="./Images/bg-2.png" -->
+
 <img src="./Images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
 
 ----
