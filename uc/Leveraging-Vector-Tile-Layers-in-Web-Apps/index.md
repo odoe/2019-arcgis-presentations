@@ -21,11 +21,23 @@ Come to this session to learn about working with vector tile layers in apps buil
  - Cool stuff
 
 ---
+
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
-### **What are Vector Tiles?**
+## **What are Vector Tiles?**
 
 ---
+
+## What is a style?
+
+* `layers` - define how layers of the tiles will rendered
+* `glyphs` - font source for the tiles
+* `sprite` - sprite images and data, used for patterns and icons
+* `sources` - data sources for tiles, can be multiple sources
+* `version` - style specification version. always set to `8`
+
+---
+
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Benefits**
@@ -42,12 +54,70 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ---
 
+### Loading Styles
+
+```js
+// Load by style url
+new VectorTileLayer({
+    url: 'https://www.arcgis.com/sharing/rest/content/items/.../resources/styles/root.json'
+})
+```
+
+```js
+// Load tile service
+// uses default style of service
+new VectorTileLayer({
+    url: 'https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer'
+})
+```
+
+```js
+// Load by portalItem
+new VectorTileLayer({
+    portalItem: { id: 'itemid' }
+})
+```
+
+---
+
+### Load Styles
+
+```js
+// Load with style JSON
+new VectorTileLayer({
+  style: {
+    version: 8,
+    sources: {
+      esri: {
+        type: "vector",
+        url: "https://VectorTileServiceURL"
+      }
+    },
+    layers: [...]
+  }
+})
+```
+
+---
+
 ### Styles and Interactivity
 
 * Define style by JSON
 * Can interact with Vector Style layers
 * No attribute data other than what's needed to render
 * Geometries can be split on tiles
+
+```js
+const vtLayer = new VectorTileLayer({
+    style: {
+        layers: [...]
+        glyphs: ...
+        sprite: ...
+        sources: { ... }
+        version: 8
+    }
+});
+```
 
 ---
 
