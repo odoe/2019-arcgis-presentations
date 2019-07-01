@@ -26,6 +26,11 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ## **What are Vector Tiles?**
 
+* Geographic data > Pre cooked tiles
+* Tiles are just binary data ([PBF](https://docs.mapbox.com/vector-tiles/specification/))
+* Styles defined in separate JSON file
+* Drawn on the client using Web GL
+
 ----
 
 ## What is a style?
@@ -42,19 +47,52 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ### **Benefits**
 
+<div style="display:flex; align-items: center;">
+  <ul style="width: calc(100% - 650px - 1rem); float: left;">
+    <li>Infinite resolution</li>
+    <li>Smooth zooming</li>
+    <li>Easy to customize</li>
+    <li>Low disk space (world = ~20 Gb)</li>
+    <li>Fast cook times (world = ~8 hours)</li>
+    <li>Indexable</li>
+    <li>Overzoom</li>
+  </ul>
+  <img src="./Images/index.png" alt="Indexed vector tiles" style="width: 650px; float: right;">
+</div>
+
 ----
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+
 
 ### **Gotchas**
 
+* Attribute data for styling only
+* `FeatureLayer` is faster in some cases
+
 ----
+
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Cool stuff**
 
+* [Watercolour basemap](https://www.arcgis.com/home/webmap/viewer.html?webmap=21812b28afea4091bc57472297aa73d4)
+* [Vector Tile Style Editor](https://developers.arcgis.com/vector-tile-style-editor)
+
 ----
 
+### Vector Tile Style Editor
+
+<img src="./Images/vtse.png" alt="Vector Tile Style Editor Screenshot" style="max-height: 50vh">
+
+Customize the style of your own or Esri's vector tiles styles.
+
+[Tutorial](https://developers.arcgis.com/labs/arcgisonline/style-a-vector-basemap/)
+
+----
+
+<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+
 ### Loading Styles
+
 
 ```js
 // Load by style url
@@ -100,6 +138,8 @@ new VectorTileLayer({
 
 ----
 
+<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+
 ### Styles and Interactivity
 
 * Define style by JSON
@@ -136,6 +176,8 @@ view.on("pointer-move", event => {
 * [Demo](https://codepen.io/odoe/pen/ewyrNB?editors=0010)
 
 ----
+
+<!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Where can I get more info?**
 
