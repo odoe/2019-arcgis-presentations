@@ -63,7 +63,7 @@
       controls: true,
       progress: true,
       history: true,
-      center: false, // don't center vertically - it makes title jump from page to page
+      center: true, // don't center vertically - it makes title jump from page to page
       slideNumber: true,
 
       // The "normal" size of the presentation, aspect ratio will be preserved
@@ -79,15 +79,10 @@
       minScale: 0.2,
       maxScale: 1.5,
 
-      transition: 'fade', // none/fade/slide/convex/concave/zoom
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
 
       // Optional reveal.js plugins
-      dependencies: [{
-          src: '../../reveal.js/lib/js/classList.js',
-          condition: function() {
-            return !document.body.classList;
-          }
-        },
+      dependencies: [
         {
           src: '../../reveal.js/plugin/markdown/marked.js',
           condition: function() {

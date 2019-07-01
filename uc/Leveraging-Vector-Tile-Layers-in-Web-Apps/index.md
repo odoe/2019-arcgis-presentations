@@ -11,7 +11,7 @@ Description:
 Come to this session to learn about working with vector tile layers in apps built with the ArcGIS API for JavaScript. We’ll show you how you can enable map interactivity and client-side styling, without compromising performance. We’ll also demonstrate the vector tile style editor which can be used to style your own vector tile layers or customize Esri’s vector tile basemaps.
 -->
 
----
+----
 
 ### **Agenda**
 </br>
@@ -20,13 +20,13 @@ Come to this session to learn about working with vector tile layers in apps buil
  - Gotchas
  - Cool stuff
 
----
+----
 
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ## **What are Vector Tiles?**
 
----
+----
 
 ## What is a style?
 
@@ -36,23 +36,23 @@ Come to this session to learn about working with vector tile layers in apps buil
 * `sources` - data sources for tiles, can be multiple sources
 * `version` - style specification version. always set to `8`
 
----
+----
 
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Benefits**
 
----
+----
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Gotchas**
 
----
+----
 <!-- .slide: data-background="./Images/bg-3.jpeg" -->
 
 ### **Cool stuff**
 
----
+----
 
 ### Loading Styles
 
@@ -78,7 +78,7 @@ new VectorTileLayer({
 })
 ```
 
----
+----
 
 ### Load Styles
 
@@ -98,7 +98,7 @@ new VectorTileLayer({
 })
 ```
 
----
+----
 
 ### Styles and Interactivity
 
@@ -119,7 +119,7 @@ const vtLayer = new VectorTileLayer({
 });
 ```
 
----
+----
 
 ### Interactivity
 
@@ -135,14 +135,16 @@ view.on("pointer-move", event => {
 
 * [Demo](https://codepen.io/odoe/pen/ewyrNB?editors=0010)
 
----
+----
 
 ### **Where can I get more info?**
 
----
+----
+
+<!-- .slide: data-background="./Images/bg-2.png" -->
+
+<img src="./Images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
+
+----
 
 <!-- .slide: data-background="./Images/2019_UC_Survey_Slide.png" -->
-
----
-
-<!-- .slide: data-background="./Images/bg-esri.png" -->

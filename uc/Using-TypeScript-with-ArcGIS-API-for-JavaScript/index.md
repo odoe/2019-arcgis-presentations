@@ -95,13 +95,13 @@ npm install --save @types/arcgis-js-api
 </br>
 <img src="Images/wheres_rene.png" alt="Rene_Softwhere_Engineer">
 
----
+----
 
 ## Tip!
 
 * [ArcGIS API for JavaScript Snippets](https://marketplace.visualstudio.com/items?itemName=Esri.arcgis-jsapi-snippets)
 
----
+----
 
 ## Demo Steps:
 
@@ -110,7 +110,7 @@ npm install --save @types/arcgis-js-api
 * `npm init --yes && tsc --init`
 * `npm i -D @types/arcgis-js-api`
 
----
+----
 
 ## index.html
 
@@ -128,7 +128,7 @@ npm install --save @types/arcgis-js-api
 </body>
 ```
 
----
+----
 
 ## tsconfig.json
 
@@ -146,7 +146,7 @@ npm install --save @types/arcgis-js-api
 }
 ```
 
----
+----
 
 ## css/main.css
 
@@ -167,7 +167,7 @@ body,
 <link rel="stylesheet" href="css/main.css">
 ```
 
----
+----
 
 ## app/main.ts
 
@@ -181,7 +181,7 @@ import LayerList from "esri/widgets/LayerList";
 import esri = __esri;
 ```
 
----
+----
 
 ## app/main.ts
 
@@ -201,7 +201,7 @@ const view = new MapView({
 });
 ```
 
----
+----
 
 ## app/main.ts
 
@@ -225,7 +225,7 @@ const layerList = new LayerList({
 view.ui.add(layerList, "top-right");
 ```
 
----
+----
 
 > start typescript compiler
 
@@ -233,7 +233,7 @@ view.ui.add(layerList, "top-right");
 tsc -w
 ```
 
----
+----
 
 ### **Tip: Hide .js and .jsmap files **
 
@@ -286,9 +286,11 @@ const layerList = new LayerList({
 
 ----
 
+<!-- .slide: data-background="./Images/bg-2.png" -->
+
+<img src="./Images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
+
+----
+
 <!-- .slide: data-background="./Images/2019_UC_Survey_Slide.png" -->
-
----
-
-<!-- .slide: data-background="./Images/bg-esri.png" -->
 
