@@ -42,12 +42,27 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ---
 
-### Styles
+### Styles and Interactivity
 
 * Define style by JSON
 * Can interact with Vector Style layers
 * No attribute data other than what's needed to render
 * Geometries can be split on tiles
+
+---
+
+### Interactivity
+
+```js
+view.on("pointer-move", event => {
+    view.hitTest(event).then(({ results }) => {
+        // returns graphics with attribute data
+        // on the layer in the style that you
+        // are interacting with
+    });
+});
+```
+
 * [Demo](https://codepen.io/odoe/pen/ewyrNB?editors=0010)
 
 ---
