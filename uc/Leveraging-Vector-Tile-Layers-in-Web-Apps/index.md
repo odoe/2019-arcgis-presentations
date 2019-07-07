@@ -173,7 +173,71 @@ view.on("pointer-move", event => {
 });
 ```
 
-* [Demo](https://codepen.io/odoe/pen/ewyrNB?editors=0010)
+----
+
+### Interactivity
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="VT - Fun" src="//codepen.io/odoe/embed/preview/ewyrNB/?height=500&theme-id=31222&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/odoe/pen/ewyrNB/'>VT - Fun</a> by Rene Rubalcava
+  (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+----
+
+### Paint Properties
+
+```js
+view.on("pointer-move", event => {
+  view.hitTest(event).then(({ results }) => {
+    const styles = results.filter(...).map(...);
+    styles.forEach(x => {
+      const paint = vtLayer.getPaintProperties(x.layerName);
+      if (paint["fill-color"]) {
+        // change paint fill color
+        paint["fill-color"] = chroma.random().hex();
+        vtLayer.setPaintProperties(x.layerName, paint)
+      }
+    });
+  });
+});
+```
+
+----
+
+### Paint Properties
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="VT -  Update Paint" src="//codepen.io/odoe/embed/preview/ydRBRL/?height=500&theme-id=31222&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/odoe/pen/ydRBRL/'>VT -  Update Paint</a> by Rene Rubalcava
+  (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+----
+
+### Style App to custom basemaps
+
+* [CSS Style guide](https://developers.arcgis.com/javascript/latest/guide/styling/)
+* [Custom themes](https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=styling-simple-theme)
+
+```css
+.my-theme .esri-widget,
+...
+.my-theme .esri-widget a {
+  background-color: #c69;
+  color: #fff;
+}
+```
+
+```html
+<body class="my-theme">
+</body>
+```
+
+----
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Lakers VT 4.12" src="//codepen.io/odoe/embed/preview/bPmbvQ/?height=500&theme-id=31222&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/odoe/pen/bPmbvQ/'>Lakers VT 4.12</a> by Rene Rubalcava
+  (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ----
 
