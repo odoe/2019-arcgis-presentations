@@ -206,8 +206,8 @@ view.on("pointer-move", event => {
 
 ### Paint Properties
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="VT -  Update Paint" src="//codepen.io/odoe/embed/preview/ydRBRL/?height=500&theme-id=31222&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/odoe/pen/ydRBRL/'>VT -  Update Paint</a> by Rene Rubalcava
+<iframe height="500" style="width: 100%;" scrolling="no" title="VT -  Update Paint 4.12" src="//codepen.io/odoe/embed/preview/dBQvEy/?height=500&theme-id=light&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/odoe/pen/dBQvEy/'>VT -  Update Paint 4.12</a> by Rene Rubalcava
   (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
