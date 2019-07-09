@@ -29,17 +29,19 @@ Come to this session to learn about working with vector tile layers in apps buil
 * Geographic data > Pre cooked tiles
 * Tiles are just binary data ([PBF](https://docs.mapbox.com/vector-tiles/specification/))
 * Styles defined in separate JSON file
-* Drawn on the client using Web GL
+* Drawn on the client using WebGL
 
 ----
 
 ## What is a style?
 
-* `layers` - define how layers of the tiles will rendered
-* `glyphs` - font source for the tiles
-* `sprite` - sprite images and data, used for patterns and icons
-* `sources` - data sources for tiles, can be multiple sources
 * `version` - style specification version. always set to `8`
+* `sprite` - sprite images and data, used for patterns and icons
+* `glyphs` - font source for the tiles
+* `sources` - data sources for tiles, can be multiple sources
+* `layers` - define how layers of the tiles will rendered
+
+[Example Style JSON](https://gist.github.com/patrickarlt/bb5adccfb447888aedcda64c97522985)
 
 ----
 
@@ -62,10 +64,10 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ----
 
-
 ### **Gotchas**
 
 * Attribute data for styling only
+* Limited interaction
 * `FeatureLayer` is faster in some cases
 
 ----
