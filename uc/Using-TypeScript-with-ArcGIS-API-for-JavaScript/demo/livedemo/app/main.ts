@@ -30,5 +30,5 @@ const layerList = new LayerList({
     }
   }
 });
-view.ui.add(layerList, "top-right");
+// view.ui.add(layerList, "top-right");
 

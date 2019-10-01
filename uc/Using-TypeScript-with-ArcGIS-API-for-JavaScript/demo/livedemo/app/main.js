@@ -31,6 +31,6 @@ define(["require", "exports", "esri/WebMap", "esri/views/MapView", "esri/widgets
             }
         }
     });
-    view.ui.add(layerList, "top-right");
 });
+// view.ui.add(layerList, "top-right");
 //# sourceMappingURL=main.js.map
