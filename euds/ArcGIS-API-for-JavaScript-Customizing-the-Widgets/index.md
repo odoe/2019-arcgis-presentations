@@ -365,5 +365,9 @@ Write simple widget
 
 ----
 
+<img src="../common/images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
+
+----
+
 <!-- **please rate us** -->
 <!-- .slide: data-background="../common/images/2019_UC_Survey_Slide.png" -->
