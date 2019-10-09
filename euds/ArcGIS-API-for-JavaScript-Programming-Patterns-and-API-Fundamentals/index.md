@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./Images/bg-1.png" -->
+<!-- .slide: data-background="../common/images/bg-1.png" -->
 <!-- .slide: class="title" -->
 
 <h1 style="text-align: left; font-size: 80px;">ArcGIS API for JavaScript Programming Patterns</h1>
@@ -643,8 +643,8 @@ const map = new WebMap({
 
 ----
 
-<img src="./Images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
+<img src="../common/images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
 
 ----
 
-<!-- .slide: data-background="./Images/2019_UC_Survey_Slide.png" -->
+<!-- .slide: data-background="../common/images/2019_UC_Survey_Slide.png" -->

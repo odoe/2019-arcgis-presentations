@@ -16,13 +16,13 @@
    /* https://colorzilla.com/gradient-editor/#1d3278+0,183988+20,104db4+90,0e53c1+100 */
    background: #d13d26;
    /* Old browsers */
-   background: -moz-linear-gradient(45deg, #d13d26 0%, #db5b22 20%, #e36e21 90%, #f2981c 100%);
+   background: -moz-linear-gradient(0deg, #d13d26 0%, #db5b22 20%, #e36e21 90%, #f2981c 100%);
    /* FF3.6-15 */
-   background: -webkit-linear-gradient(45deg, #d13d26 0%, #db5b22 20%, #e36e21 90%, #f2981c 100%);
+   background: -webkit-linear-gradient(0deg, #d13d26 0%, #db5b22 20%, #e36e21 90%, #f2981c 100%);
    /* Chrome10-25,Safari5.1-6 */
-   background: linear-gradient(45deg, #d13d26 0%, #db5b22 20%, #e36e21 90%, #f2981c 100%);
+   background: linear-gradient(0deg, #d13d26 0%, #db5b22 20%, #e36e21 90%, #f2981c 100%);
    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3278', endColorstr='#0e53c1',GradientType=1 );
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d13d26', endColorstr='#f2981c',GradientType=1 );
    /* IE6-9 fallback on horizontal gradient */
    background-color: #fff; }
  

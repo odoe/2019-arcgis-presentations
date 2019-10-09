@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./Images/bg-1.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-1.jpeg" -->
 <!-- .slide: class="title" -->
 
 <h1 style="text-align: right; font-size: 80px;">Leveraging Vector Tile Layers</h1>
@@ -22,7 +22,7 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ----
 
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
 
 ## **What are Vector Tiles?**
 
@@ -45,7 +45,7 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ----
 
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
 
 ### **Benefits**
 
@@ -59,7 +59,7 @@ Come to this session to learn about working with vector tile layers in apps buil
     <li>Indexable</li>
     <li>Overzoom</li>
   </ul>
-  <img src="./Images/index.png" alt="Indexed vector tiles" style="width: 650px; float: right;">
+  <img src="../common/images/index.png" alt="Indexed vector tiles" style="width: 650px; float: right;">
 </div>
 
 ----
@@ -72,7 +72,7 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ----
 
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
 
 ### **Cool stuff**
 
@@ -83,7 +83,7 @@ Come to this session to learn about working with vector tile layers in apps buil
 
 ### Vector Tile Style Editor
 
-<img src="./Images/vtse.png" alt="Vector Tile Style Editor Screenshot" style="max-height: 50vh">
+<img src="../common/images/vtse.png" alt="Vector Tile Style Editor Screenshot" style="max-height: 50vh">
 
 Customize the style of your own or Esri's vector tiles styles.
 
@@ -91,7 +91,7 @@ Customize the style of your own or Esri's vector tiles styles.
 
 ----
 
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
 
 ### Loading Styles
 
@@ -140,7 +140,7 @@ new VectorTileLayer({
 
 ----
 
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
 
 ### Styles and Interactivity
 
@@ -243,20 +243,20 @@ view.on("pointer-move", event => {
 
 ----
 
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
 
 ### **Where can I get more info?**
 
 ----
 
-<!-- .slide: data-background="./Images/alias_slide.png" -->
+<!-- .slide: data-background="../common/images/alias_slide.png" -->
 
 ----
 
-<!-- .slide: data-background="./Images/bg-2.png" -->
+<!-- .slide: data-background="../common/images/bg-2.png" -->
 
-<img src="./Images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
+<img src="../common/images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
 
 ----
 
-<!-- .slide: data-background="./Images/2019_UC_Survey_Slide.png" -->
+<!-- .slide: data-background="../common/images/2019_UC_Survey_Slide.png" -->

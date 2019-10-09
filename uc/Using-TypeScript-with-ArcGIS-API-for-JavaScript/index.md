@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./Images/bg-1.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-1.jpeg" -->
 <!-- .slide: class="title" -->
 
 <h1 style="text-align: right; font-size: 80px;">Using TypeScript</h1>
@@ -89,7 +89,7 @@ npm install --save @types/arcgis-js-api
 
 ----
 
-<!-- .slide: data-background="./Images/bg-3.jpeg" -->
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
 
 ### **Demo: Build a TypeScript app from scratch**
 </br>
@@ -286,15 +286,15 @@ const layerList = new LayerList({
 
 ----
 
-<!-- .slide: data-background="./Images/alias_slide.png" -->
+<!-- .slide: data-background="../common/images/alias_slide.png" -->
 
 ----
 
-<!-- .slide: data-background="./Images/bg-2.png" -->
+<!-- .slide: data-background="../common/images/bg-2.png" -->
 
-<img src="./Images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
+<img src="../common/images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
 
 ----
 
-<!-- .slide: data-background="./Images/2019_UC_Survey_Slide.png" -->
+<!-- .slide: data-background="../common/images/2019_UC_Survey_Slide.png" -->
 
