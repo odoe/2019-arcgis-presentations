@@ -12,7 +12,35 @@ In this session, we’ll cover the principles of data visualization and some use
 
 ----
 
-# Data Viz
+# Principles
+
+----
+
+## Audience
+
+----
+
+## Visual Contrast
+
+----
+
+## Legibility
+
+----
+
+## Figure-Ground Organization
+
+----
+
+## Hierarchical Organization
+
+----
+
+## Balance
+
+----
+
+## Interactivity
 
 ----
 
