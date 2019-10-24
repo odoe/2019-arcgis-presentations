@@ -4,7 +4,7 @@
 <h1 style="text-align: left; font-size: 80px;">ArcGIS API for JavaScript</h1>
 <h2 style="text-align: left; font-size: 60px;">Customizing the Widgets</h2>
 <p style="text-align: left; font-size: 30px;">Julian Kissling | Rene Rubalcava</p>
-    <p style="text-align: left; font-size: 30px;">slides: <a href="https://git.io/fjrz4" target="_blank">https://git.io/fjrz4</a></p>
+    <p style="text-align: left; font-size: 30px;">slides: <a href="https://git.io/Je0y6" target="_blank">https://git.io/Je0y6</a></p>
 
 <!--
 In this session, we'll cover how you can customize widgets in the ArcGIS API 4.x for JavaScript. You'll learn about widget view-models and how they make it easy to rewrite a widget's UI.

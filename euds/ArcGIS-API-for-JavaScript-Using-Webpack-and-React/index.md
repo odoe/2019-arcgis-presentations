@@ -4,7 +4,7 @@
 <h1 style="text-align: left; font-size: 80px;">ArcGIS API for JavaScript</h1>
 <h2 style="text-align: left; font-size: 60px;">Using Webpack and React</h2>
 <p style="text-align: left; font-size: 30px;">Rene Rubalcava</p>
-    <p style="text-align: left; font-size: 30px;">slides: <a href="https://git.io/fjrz4" target="_blank">https://git.io/fjrz4</a></p>
+    <p style="text-align: left; font-size: 30px;">slides: <a href="https://git.io/Je0yM" target="_blank">https://git.io/Je0yM</a></p>
 
 <!--
 Learn to build powerful applications that integrate the ArcGIS API for JavaScript via the ArcGIS webpack plugin or esri-loader. In this session, we’ll use React to build a fast and responsive application that uses modern tooling and techniques.

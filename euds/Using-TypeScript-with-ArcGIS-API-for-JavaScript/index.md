@@ -4,7 +4,7 @@
 <h1 style="text-align: left; font-size: 80px;">Using TypeScript</h1>
 <h2 style="text-align: left; font-size: 60px;">with ArcGIS API for JavaScript</h2>
 <p style="text-align: left; font-size: 30px;">Niklas Koehn | René Rubalcava</p>
-    <p style="text-align: left; font-size: 30px;">slides: <a href="https://git.io/fj2Ej" target="_blank">https://git.io/fj2Ej</a></p>
+    <p style="text-align: left; font-size: 30px;">slides: <a href="https://git.io/Je0yS" target="_blank">https://git.io/Je0yS</a></p>
 
 ----
 
