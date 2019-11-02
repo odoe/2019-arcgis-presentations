@@ -20,21 +20,21 @@
 
 ### **What is TypeScript?**
 <a href="https://www.typescriptlang.org/" target="_blank">
-<img style="float:bottom;" src="Images/TypeScript_Superset_JavaScript.png" alt="TypeScript_Superset_JavaScript">
+<img style="float:bottom;" src="../common/images/TypeScript_Superset_JavaScript.png" alt="TypeScript_Superset_JavaScript">
 </a>
 
 ----
 
 ### **Where do I begin?**
 <a href="https://www.typescriptlang.org/" target="_blank">
-<img src="Images/TS.png" alt="TypeScript landing page" width="1037" height="516">
+<img src="../common/images/TS.png" alt="TypeScript landing page" height="516">
 </a>
 
 ----
 
 ### **Developer Setup**
 <a href="https://developers.arcgis.com/javascript/latest/guide/typescript-setup/index.html" target="_blank">
-<img style="float:bottom;" src="Images/Setup_TS.png" alt="Setup_TS">
+<img style="float:bottom;" src="../common/images/Setup_TS.png" alt="Setup_TS">
 </a>
 
 ----
@@ -44,7 +44,7 @@
 TypeScript adds **type** support to JavaScript
 </br>
 </br>
-<img src="Images/TS_1a.png" alt="TypeScript_Example1">
+<img src="../common/images/TS_1a.png" alt="TypeScript_Example1">
 
 ----
 
@@ -52,7 +52,7 @@ TypeScript adds **type** support to JavaScript
 </br>
 Enhanced IDE support
 </br>
-<img src="Images/TS_2.png" alt="TypeScript_Example2">
+<img src="../common/images/TS_2.png" alt="TypeScript_Example2">
 
 ----
 
@@ -61,7 +61,7 @@ Enhanced IDE support
 Makes use of the latest JavaScript features
 </br>
 </br>
-<img src="Images/promise_async_await_carbon4.png" alt="TypeScript_Example3">
+<img src="../common/images/promise_async_await_carbon4.png" alt="TypeScript_Example3">
 
 ----
 
@@ -70,7 +70,7 @@ Makes use of the latest JavaScript features
 Makes use of the latest JavaScript features
 </br>
 </br>
-<img src="Images/dynamicModule2.png" alt="TypeScript_Example4">
+<img src="../common/images/dynamicModule2.png" alt="TypeScript_Example4">
 
 ----
 
@@ -93,7 +93,7 @@ npm install --save @types/arcgis-js-api
 
 ### **Demo: Build a TypeScript app from scratch**
 </br>
-<img src="Images/wheres_rene.png" alt="Rene_Softwhere_Engineer">
+<img src="../common/images/wheres_rene.png" alt="Rene_Softwhere_Engineer">
 
 ----
 
@@ -253,7 +253,7 @@ tsc -w
   - Enable source maps in browser dev tools
   - Set breakpoints in .ts instead of .js
 
-  ![JS Code](Images/transpiled.png)
+  ![JS Code](../common/images/transpiled.png)
 
 ----
 
@@ -282,15 +282,9 @@ const layerList = new LayerList({
 - GeoNet, StackExchange, Spatial Community in Slack, etc.</br>
 </br>
 <a href="https://www.esri.com/arcgis-blog/products/js-api-arcgis/mapping/using-typescript-with-the-arcgis-api-for-javascript/" target="_blank">
-<img style="float:bottom;" src="Images/Using_TS_blog.png" alt="Using_TS_blog">
+<img style="float:bottom;" src="../common/images/Using_TS_blog.png" alt="Using_TS_blog">
 
 ----
-
-<!-- .slide: data-background="../common/images/alias_slide.png" -->
-
-----
-
-<!-- .slide: data-background="../common/images/bg-2.png" -->
 
 <img src="../common/images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
 
