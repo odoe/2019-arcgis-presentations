@@ -37,13 +37,12 @@ In this session, you'll learn the basics of the ArcGIS API 4.x for JavaScript, i
 - App starters
 - Widgets
 
-[![Esri Github](Images/github-esri.png)](https://github.com/search?o=desc&q=topic%3Ajavascript+org%3AEsri+fork%3Atrue&s=updated&type=Repositories)
+[![Esri Github](../common/images/github-esri.png)](https://github.com/search?o=desc&q=topic%3Ajavascript+org%3AEsri+fork%3Atrue&s=updated&type=Repositories)
 
-å
 ----
 <!-- .slide: data-background="./images/section.png" -->
 ## Widgets!
-- We'll look at a few <a href="(https://developers.arcgis.com/javascript/latest/sample-code/index.html?search=Widget)">widgets</a>
+- We'll look at a few <a href="https://developers.arcgis.com/javascript/latest/sample-code/index.html?search=Widget">widgets</a>
 - ~30 Widgets out of the box <!-- .element: class="fragment" data-fragment-index="1" -->
 - Widgets help make great apps <!-- .element: class="fragment" data-fragment-index="2" -->
 - Less code for you to write <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -104,7 +103,7 @@ In this session, you'll learn the basics of the ArcGIS API 4.x for JavaScript, i
 ## Widgets - Architecture
 
  View + View Model
- ![Search View Model](Images/searchviewmodel.png)
+ ![Search View Model](../common/images/searchviewmodel.png)
 
 <aside class="notes"> Separate business logic and presentation. Link to doc  </aside>
 
@@ -157,7 +156,9 @@ portal.helperServices.geocode.map(geocoderService => {
 
 ## Widgets - Styling
  Available Themes
- <iframe  width='500' height='400' scrolling='no' title='Themes' src='//codepen.io/kellyhutchins/embed/preview/Lqebdm/?height=300&theme-id=31222&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/kellyhutchins/pen/Lqebdm'>Theme Tester</a> by Kelly Hutchins (<a href='https://codepen.io/kellyhutchins'>@kellyhutchins</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height="600" style="width: 100%;" scrolling="no" title="Theme Testing" src="https://codepen.io/odoe/embed/preview/oNNGRbz?height=600&theme-id=31222&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/odoe/pen/oNNGRbz'>Theme Testing</a> by Rene Rubalcava
+  (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 <aside class="notes">Look at ways to customize appearance of widgets</aside>
@@ -647,4 +648,4 @@ const map = new WebMap({
 
 ----
 
-<!-- .slide: data-background="../common/images/2019_UC_Survey_Slide.png" -->
+<!-- .slide: data-background="../common/images/bg-rating.png" -->

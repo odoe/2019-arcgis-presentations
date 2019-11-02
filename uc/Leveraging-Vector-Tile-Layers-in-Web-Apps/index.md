@@ -259,4 +259,4 @@ view.on("pointer-move", event => {
 
 ----
 
-<!-- .slide: data-background="../common/images/2019_UC_Survey_Slide.png" -->
+<!-- .slide: data-background="../common/images/bg-rating.png" -->

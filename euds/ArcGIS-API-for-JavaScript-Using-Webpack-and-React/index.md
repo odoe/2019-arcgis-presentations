@@ -648,7 +648,7 @@ for even better initial load performance
 ### [Load a specific version of the ArcGIS API](https://github.com/Esri/esri-loader#from-a-specific-version)
 
 ```js
-const apiUrl = "https://js.arcgis.com/3.27/";
+const apiUrl = "https://js.arcgis.com/3.30/";
 loadModules(
   ["esri/map"],
   {
@@ -722,4 +722,4 @@ Go forth and prosper
 
 ----
 
-<!-- .slide: data-background="../common/images/2019_UC_Survey_Slide.png" -->
+<!-- .slide: data-background="../common/images/bg-rating.png" -->
