@@ -89,26 +89,9 @@ npm install --save @types/arcgis-js-api
 
 ----
 
-<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
-
-### **Demo: Build a TypeScript app from scratch**
-</br>
-<img src="../common/images/wheres_rene.png" alt="Rene_Softwhere_Engineer">
-
-----
-
 ## Tip!
 
 * [ArcGIS API for JavaScript Snippets](https://marketplace.visualstudio.com/items?itemName=Esri.arcgis-jsapi-snippets)
-
-----
-
-## Demo Steps:
-
-* `mkdir ts-demo && cd ts-demo`
-* `mkdir app && mkdir css`
-* `npm init --yes && tsc --init`
-* `npm i -D @types/arcgis-js-api`
 
 ----
 
@@ -144,93 +127,6 @@ npm install --save @types/arcgis-js-api
     "esModuleInterop": true
   }
 }
-```
-
-----
-
-## css/main.css
-
-```css
-html,
-body,
-#viewDiv {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-}
-```
-
-* _and add it to html_
-
-```html
-<link rel="stylesheet" href="css/main.css">
-```
-
-----
-
-## app/main.ts
-
-> imports
-
-```ts
-import WebMap from "esri/WebMap";
-import MapView from "esri/views/MapView";
-import LayerList from "esri/widgets/LayerList";
-
-import esri = __esri;
-```
-
-----
-
-## app/main.ts
-
-> WebMap and MapView
-
-```ts
-const map = new WebMap({
-  portalItem: {
-    id: "d5dda743788a4b0688fe48f43ae7beb9"
-  }
-});
-
-// Add the map to a MapView
-const view = new MapView({
-  container: "viewDiv",
-  map
-});
-```
-
-----
-
-## app/main.ts
-
-> LayerList
-
-```ts
-// Add a legend instance to the panel of a
-// ListItem in a LayerList instance
-const layerList = new LayerList({
-  view,
-  listItemCreatedFunction: event => {
-    const item: esri.ListItem = event.item;
-    if (item.layer.type != "group") {
-      item.panel = {
-        content: "legend",
-        open: true
-      } as esri.ListItemPanel;
-    }
-  }
-});
-view.ui.add(layerList, "top-right");
-```
-
-----
-
-> start typescript compiler
-
-```bash
-tsc -w
 ```
 
 ----
@@ -283,6 +179,12 @@ const layerList = new LayerList({
 </br>
 <a href="https://www.esri.com/arcgis-blog/products/js-api-arcgis/mapping/using-typescript-with-the-arcgis-api-for-javascript/" target="_blank">
 <img style="float:bottom;" src="../common/images/Using_TS_blog.png" alt="Using_TS_blog">
+
+----
+
+<!-- .slide: data-background="../common/images/bg-3.jpeg" -->
+
+### **Demo: Build a TypeScript app from scratch**
 
 ----
 
