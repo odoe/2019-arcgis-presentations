@@ -92,13 +92,12 @@ In this session, we’ll cover the principles of data visualization and some use
 
 ----
 
-## Whart can we visualize?
+## What can we visualize?
 
 <ul style="float: left;">
 <li style="text-align: left; font-size: 60px;">Where?</li>
 <li style="text-align: left; font-size: 60px;">What?</li>
 <li style="text-align: left; font-size: 60px;">When?</li>
-<li style="text-align: left; font-size: 60px;">Where?</li>
 <li style="text-align: left; font-size: 60px;">Multivariate</li>
 </ul>
 
@@ -110,11 +109,11 @@ In this session, we’ll cover the principles of data visualization and some use
 
 - Based on geometry type
 - Points
-    - SimpleMarkerSymbol, PictureMarkerSymbol, WebStyleSymbol, CIMSymbol
+    - _SimpleMarkerSymbol, PictureMarkerSymbol, WebStyleSymbol, CIMSymbol_
 - Lines
-    - SimpleLineSymbol
+    - _SimpleLineSymbol_
 - Polygon
-    - SimpleFillSymbol, PictureFillSymbol
+    - _SimpleFillSymbol, PictureFillSymbol_
 
 ----
 
@@ -178,19 +177,19 @@ In this session, we’ll cover the principles of data visualization and some use
 
 ### Age
 
-<img src="./images/age.png" style="border: 0px; background:none; box-shadow: none;">
+<a href="https://ekenes.github.io/esri-ts-samples/visualization/smart-mapping/age/" target="_blank"><img src="./images/age.png" style="border: 0px; background:none; box-shadow: none;"></a>
 
 ----
 
 ### Relationship
 
-<img src="./images/relationship.png" style="border: 0px; background:none; box-shadow: none;">
+<a href="./demos/5-relationship/" target="_blank"><img src="./images/relationship.png" style="border: 0px; background:none; box-shadow: none;"></a>
 
 ----
 
 ### Predominance
 
-<img src="./images/predominance.png" style="border: 0px; background:none; box-shadow: none;">
+<a href="./demos/3-predominance/" target="_blank"><img src="./images/predominance.png" style="border: 0px; background:none; box-shadow: none;"></a>
 
 ----
 

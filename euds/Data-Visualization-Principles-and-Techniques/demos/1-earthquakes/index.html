@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>CSVLayer - Earthquakes</title>
+
+<style>
+  html,
+  body,
+  #viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+</style>
+
+<link rel="stylesheet" href="https://js.arcgis.com/4.13/esri/css/main.css">
+<script src="https://js.arcgis.com/4.13/"></script>
+
+<script>
+require([
+  "esri/Map",
+  "esri/layers/CSVLayer",
+  "esri/views/MapView",
+  "esri/config",
+  "esri/widgets/Legend",
+  "dojo/domReady!"
+], function(
+  Map,
+  CSVLayer,
+  MapView,
+  esriConfig,
+  Legend
+) {
+
+  var magnitudeWithColor = {
+    type: "color",
+    field: "mag",
+    legendOptions: {
+      title: "Magnitude"
+    },
+    stops: [
+      { value: 2, color: "#fffcd4" },
+      { value: 3, color: "#b1cdc2" },
+      { value: 4, color: "#629eb0" },
+      { value: 5, color: "#38627a" },
+      { value: 7, color: "#0d2644" }
+    ]
+  };
+
+  var magnitudeWithSize = {
+    type: "size",
+    field: "mag",
+    legendOptions: {
+      title: "Magnitude"
+    },
+    stops: [
+      { value: 2, size: "4px" },
+      { value: 3, size: "10px" },
+      { value: 4, size: "20px" },
+      { value: 5, size: "30px" },
+      { value: 7, size: "50px" }
+    ]
+  };
+
+  const renderer = {
+    type: "heatmap",
+    colorStops: [
+      { color: "rgba(63, 40, 102, 0)", ratio: 0 },
+      { color: "#472b77", ratio: 0.083 },
+      { color: "#4e2d87", ratio: 0.166 },
+      { color: "#563098", ratio: 0.249 },
+      { color: "#5d32a8", ratio: 0.332 },
+      { color: "#6735be", ratio: 0.415 },
+      { color: "#7139d4", ratio: 0.498 },
+      { color: "#7b3ce9", ratio: 0.581 },
+      { color: "#853fff", ratio: 0.664 },
+      { color: "#a46fbf", ratio: 0.747 },
+      { color: "#c29f80", ratio: 0.83 },
+      { color: "#e0cf40", ratio: 0.913 },
+      { color: "#ffff00", ratio: 1 }
+    ],
+    maxPixelIntensity: 250,
+    minPixelIntensity: 0
+  };
+
+  // If CSV files are not on the same domain as your website, a CORS enabled server
+  // or a proxy is required.
+  var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.csv";
+  esriConfig.request.corsEnabledServers.push(url);
+
+  // Paste the url into a browser's address bar to download and view the attributes
+  // in the CSV file. These attributes include:
+  // * mag - magnitude
+  // * type - earthquake or other event such as nuclear test
+  // * place - location of the event
+  // * time - the time of the event
+
+  var template = {
+    title: "Earthquake Info",
+    content: "Magnitude {mag} {type} hit {place} on {time}.",
+    fieldInfos: [{
+      fieldName: "time",
+      formatOptions: {
+        dateFormat: "day-short-month-year-short-time"
+      }
+    }]
+  };
+
+  var earthquakesLayer = new CSVLayer({
+    url: url,
+    copyright: "USGS Earthquakes",
+    title: "Earthquakes from last week (magnitude 2.5+)",
+    popupTemplate: template
+  });
+
+  // set the renderer on the layer
+  earthquakesLayer.renderer = renderer;
+
+  var map = new Map({
+    basemap: "gray-vector",
+    layers: [ earthquakesLayer ]
+  });
+
+  view = new MapView({
+    container: "viewDiv",
+    extent: {
+      "spatialReference": {
+        "latestWkid": 3857,
+        "wkid": 102100
+      },
+      "xmin": -13118369.681767836,
+      "ymin": 4235261.963699823,
+      "xmax": -13041015.409143344,
+      "ymax": 4294959.282790465
+    },
+    map: map
+  });
+
+  view.ui.add(new Legend({ view: view }), "bottom-left");
+
+  function createSymbol(color){
+    return {
+      type: "simple-marker",
+      size: "7px",
+      color: color,
+      outline: {
+        color: [255,255,255,0.4],
+        width: 0.5
+      }
+    };
+  }
+
+});
+</script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+</body>
+
+</html>
