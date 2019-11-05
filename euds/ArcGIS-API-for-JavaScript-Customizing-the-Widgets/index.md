@@ -90,24 +90,18 @@ const shorthand = { person };
 
 ----
 
-
-
-## Demo: [Dev Environment](../demos/1-setup/)
-
 - Install TypeScript + JS API
 
 ----
 
 
 
-## Demo Recap: Dev Environment
+## Dev Environment
 
 - Installed TypeScript + JS API typings
 - Built mapping application
 
 ----
-
-
 
 ## Creating a Class
 
@@ -131,9 +125,6 @@ me.watch("age", singHappyBirthday);
 ----
 
 
-
-## Demo: [Custom Class](../demos/2-custom-class/)
-
 ```ts
 // fetches webmaps from a portal and provides APIs to work with them
 interface CustomClass {
@@ -154,8 +145,6 @@ interface CustomClass {
 ```
 
 ----
-
-
 
 ## Demo Recap: Custom Class
 
@@ -216,14 +205,11 @@ interface CustomClass {
 ----
 
 
-
-## Demo: [Simple View](../demos/3-simple-view/)
-
 Write simple widget
 
 ----
 
-## Demo Recap: Simple View
+## Simple View
 
 - Extended `esri/widgets/Widget`
 - Implemented `render()`
@@ -233,7 +219,6 @@ Write simple widget
 - Toggled property with event to re-render
 
 ----
-
 
 
 # Improving Our Widget
@@ -278,71 +263,7 @@ Write simple widget
 
 ----
 
-
-
-## Demo: [Updated View](../demos/4-updated-view/)
-
-- Create `WebMapShowCase` to use `CustomClass` as VM
-- Render details from the `active` portal item
-
-<!---- mention BEM -->
-
-----
-
-## Demo Recap: Update View
-
-- Paired View and ViewModel
-- Rendered property from ViewModel
-- Wired up interactivity
-- Learned to apply styles
-- Dynamically rendered UI based on a property value
-
-----
-
-<!-- Presenter: Franco -->
-
-# Going Further
-
-
-
-----
-
-# Going Further
-
-- <!-- .element: class="fragment" data-fragment-index="0" -->Improve UX
-- <!-- .element: class="fragment" data-fragment-index="2" -->Accessibility (`a11y`)
-
-----
-
-
-
-## Demo: [Going Further (UX)](../demos/5-final-view/)
-
-- Auto-cycle through webmaps
-- Show timer in UI
-- Support play/pause
-
-----
-
-
-
-## Demo Recap: Going Further
-
-- Improved UX
-- Added support for extra locale
-
-----
-
-<!-- Presenter: Matt -->
-
-
-## Final Recap
-
-- Set up dev environment
-- Wrote a custom class
-- Developed a custom Widget
-- Enhanced a Widget
-- Went further
+## Demos
 
 ----
 

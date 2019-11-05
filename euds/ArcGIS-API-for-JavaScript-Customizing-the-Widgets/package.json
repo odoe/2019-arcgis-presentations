@@ -9,7 +9,7 @@
     "esri-reveal.js-templates": "git+https://github.com/esri/reveal.js.git"
   },
   "devDependencies": {
-    "@types/arcgis-js-api": "4.12.0",
+    "@types/arcgis-js-api": "4.13.0",
     "dojo-typings": "1.11.9",
     "grunt": "1.0.4",
     "grunt-sass": "3.0.2",

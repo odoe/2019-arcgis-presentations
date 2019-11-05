@@ -7,7 +7,7 @@
     <title>Themes</title>
 
     <!-- Chance the path to the theme you want to use -->
-    <link id="themeLink" rel="stylesheet" href="https://js.arcgis.com/4.12/esri/themes/light/main.css" />
+    <link id="themeLink" rel="stylesheet" href="https://js.arcgis.com/4.13/esri/themes/light/main.css" />
 
     <style>
       html,
@@ -31,7 +31,7 @@
       }
     </style>
 
-    <script src="https://js.arcgis.com/4.12"></script>
+    <script src="https://js.arcgis.com/4.13"></script>
 
     <script type="text/javascript">
       var view;
@@ -106,7 +106,7 @@
         });
         selectMenuNode.onchange = function() {
           var themeLinkNode = document.getElementById("themeLink");
-          themeLinkNode.href = "https://js.arcgis.com/4.12/esri/themes/" + selectMenuNode.value + "/main.css";
+          themeLinkNode.href = "https://js.arcgis.com/4.13/esri/themes/" + selectMenuNode.value + "/main.css";
         };
       });
     </script>
