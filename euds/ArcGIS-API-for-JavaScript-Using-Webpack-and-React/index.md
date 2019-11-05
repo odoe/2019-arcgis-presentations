@@ -17,14 +17,6 @@ Learn to build powerful applications that integrate the ArcGIS API for JavaScrip
 
 <p><code>ui = f(s)</code></p>
 
-----
-
-<!-- .slide: data-background="../reveal.js/img/2019/devsummit/bg-4.png" -->
-
-## ArcGIS API for JavaScript
-
-`🌎 = new F(id, container)`
-
 
 ----
 
