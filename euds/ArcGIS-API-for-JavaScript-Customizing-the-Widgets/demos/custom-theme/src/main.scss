@@ -1,0 +1,54 @@
+/*
+  Theme: Blocky McBricks Theme
+*/
+
+//  Main Colors Vars
+$font-color: #fff;
+$interactive-font-color: #fff;
+$background-color: #e3000b;
+
+// Hover
+$interactive-font-color--hover: #000;
+$background-color--hover: #ffed00;
+$border-color--hover: #e3000b;
+
+// Active
+$border-color--active: #e3000b;
+$background-color--active: #ffed00;
+
+// border
+$border-radius: none;
+$border-color: #000;
+$border-color--subtle: #fff;
+
+// buttons
+$button-color: #fff;
+$button-color--hover: #ffed00;
+$button-color--inverse: #ffed00;
+
+// Font
+@font-face {
+  font-family: "brixregular";
+  src: url("../../brix/brix-webfont.woff2") format("woff2"), url("../../brix/brix-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Font
+$font-family: "brixregular", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+// Font weight
+$font-weight: 600 !default;
+$font-weight__heading: 600 !default;
+$font-weight__bold: 600 !default;
+
+// Font sizing
+$line-height: 1.3em !default;
+$base-font-size: 18px !default;
+
+// buttons
+$button-width: 48px !default;
+$button-height: 48px !default;
+
+// Keep this import last
+@import "../base/core";

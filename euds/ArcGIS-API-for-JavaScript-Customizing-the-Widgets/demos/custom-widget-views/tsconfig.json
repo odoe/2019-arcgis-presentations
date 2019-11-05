@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "jsxFactory": "tsx",
+    "lib": [ "dom", "es5", "scripthost", "es2015.collection" ],
+    "module": "amd",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "sourceMap": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5",
+    "types": [ "arcgis-js-api" ]
+  },
+  "include": [
+    "app",
+    "typings",
+    "node_modules/dojo-typings/dojo/1.11/modules.d.ts",
+    "node_modules/dojo-typings/dojo/1.11/index.d.ts",
+    "node_modules/dojo-typings/dojo/1.11/loader.d.ts"
+  ]
+}

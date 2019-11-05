@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <title>Custom theme preview</title>
+
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      .logo {
+        box-sizing: border-box;
+        font-family: "brixregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        width: 30%;
+        margin-left: -15%;
+        text-align: center;
+        background-color: #e3000b;
+        text-shadow: 2px 2px 0px #000000;
+        color: #fff;
+        z-index: 1;
+        border: 2px solid #000;
+        padding: 20px;
+      }
+    </style>
+    <link rel="stylesheet" href="./dist/my-theme/main.css" />
+
+    <script src="bookmarks.js"></script>
+
+    <script>
+      var locationPath = window.location.href.replace(/\/[^/]+$/, "/");
+      var dojoConfig = {
+        paths: {
+          layers: locationPath + "layers"
+        }
+      };
+    </script>
+
+    <script src="https://js.arcgis.com/4.12/"></script>
+
+    <script>
+      require([
+        "esri/views/MapView",
+        "esri/WebMap",
+        "esri/widgets/Search",
+        "esri/widgets/Legend",
+        "esri/widgets/Compass",
+        "esri/widgets/Expand",
+        "esri/widgets/LayerList",
+        "esri/widgets/Home",
+        "esri/widgets/Bookmarks",
+        "esri/Basemap",
+        "esri/layers/TileLayer",
+        "layers/BrickLayer",
+        "layers/palette"
+      ], function(
+        MapView,
+        WebMap,
+        Search,
+        Legend,
+        Compass,
+        Expand,
+        LayerList,
+        Home,
+        Bookmarks,
+        Basemap,
+        TileLayer,
+        BrickLayer,
+        palette
+      ) {
+        var basemap = new Basemap({
+          baseLayers: [
+            new BrickLayer({
+              layer: new TileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"),
+              filter: {
+                darken: 0.25,
+                saturate: 2
+              }
+            })
+          ]
+        });
+
+        var map = new WebMap({
+          portalItem: {
+            id: "cbf0bfa6e27440b49f6482a0fe73505c"
+          }
+        });
+
+        map.when(function() {
+          map.basemap = basemap;
+        });
+
+        var view = new MapView({
+          map: map,
+          container: "viewDiv",
+          constraints: {
+            minScale: 50000000,
+            snapToZoom: false
+          }
+        });
+
+        var search = new Search({
+          view: view
+        });
+        view.ui.add(search, "top-right");
+
+        var legend = new Legend({
+          view: view
+        });
+        var legendExpand = new Expand({
+          view: view,
+          content: legend,
+          expanded: true
+        });
+        view.ui.add(legendExpand, "bottom-left");
+
+        var layerList = new LayerList({
+          view: view
+        });
+        var layerListExpand = new Expand({
+          view: view,
+          content: layerList,
+          expanded: true
+        });
+        view.ui.add(layerListExpand, "top-left");
+
+        var home = new Home({
+          view: view
+        });
+        view.ui.add(home, "top-left");
+
+        var compass = new Compass({
+          view: view
+        });
+        view.ui.add(compass, "top-left");
+
+        var bookmarks = new Bookmarks({
+          view: view,
+          bookmarks: BOOKMARKS_JSON
+        });
+        var bookmarksExpand = new Expand({
+          view: view,
+          content: bookmarks
+        });
+        view.ui.add(bookmarksExpand, "top-right");
+      });
+    </script>
+  </head>
+
+  <body>
+    <h1 class="logo">BLOCKY McBRICKS</h1>
+    <div id="viewDiv"></div>
+  </body>
+</html>

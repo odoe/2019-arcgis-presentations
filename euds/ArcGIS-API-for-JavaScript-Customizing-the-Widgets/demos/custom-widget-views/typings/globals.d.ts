@@ -1,0 +1,1 @@
+type VNode = any;

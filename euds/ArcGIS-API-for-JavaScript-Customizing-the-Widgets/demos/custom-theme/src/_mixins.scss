@@ -1,0 +1,15 @@
+@mixin boxShadow($arguments) {
+  border: 3px solid #000;
+}
+
+@mixin defaultBoxShadow() {
+  border: 3px solid #000;
+}
+
+@mixin borderBoxShadow($color: $border-color) {
+  border: 3px solid #000;
+}
+
+@mixin cardBoxShadow($color: $border-color) {
+  border: 3px solid #000;
+}
