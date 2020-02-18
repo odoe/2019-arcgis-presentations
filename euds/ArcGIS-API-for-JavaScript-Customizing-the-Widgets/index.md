@@ -280,10 +280,6 @@ Write simple widget
 
 # Question Time
 
-> 🤔 Where can I find the slides/source?
-
-👉 [https://github.com/odoe/presentations/tree/master/2018-EU-DevSummit/custom-widgets](https://github.com/odoe/presentations/tree/master/2018-EU-DevSummit/custom-widgets) 👈
-
 ----
 
 <img src="../common/images/esri-science-logo-white.png" style="border: 0px; background:none; box-shadow: none;">
